@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MyDatabase {
-    private final String url="jdbc:mysql://localhost:3306/esports";
+    private final String url="jdbc:mysql://localhost:4307/esport-db";
     private final String user="root";
     private final String password="";
     private Connection connection;
