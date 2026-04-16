@@ -6,8 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d9361db9-95ef-4837-b2cf-105c08edff2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/AfficherEquipeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/AjouterEquipeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/AjouterMatchGameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/EquipeDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/MatchGameDashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MainBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MainMatchGameEquipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MainProduitCategorie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MainUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/test/MenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ajouterMatchGame.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/equipe/afficherEquipe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/equipe/afficherEquipe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/equipe/ajouterEquipe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/equipe/ajouterEquipe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/equipe/equipeDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/equipe/equipeDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/matchGameDashboard.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +68,7 @@
     "Application.MainProduitCategorie.executor": "Run",
     "JUnit.CategoryServiceTest.executor": "Run",
     "JUnit.EquipeTest.executor": "Run",
+    "JUnit.MatchGameTest.executor": "Run",
     "JUnit.ProductServiceTest.executor": "Run",
     "JUnit.ProductServiceTest.testAddProduct.executor": "Run",
     "JUnit.ProductServiceTest.testDeleteProduct.executor": "Run",
@@ -101,7 +116,7 @@
       <recent name="tn.esprit.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FxLauncher">
+  <component name="RunManager" selected="Application.MainFX">
     <configuration name="FxLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.esprit.test.FxLauncher" />
       <module name="WorkshopJDBC-JavaFX-3A56" />
@@ -166,11 +181,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FxLauncher" />
+        <item itemvalue="Application.MainFX" />
         <item itemvalue="JUnit.MatchGameTest" />
         <item itemvalue="JUnit.EquipeTest" />
-        <item itemvalue="Application.MainFX" />
         <item itemvalue="JUnit.ServiceUserTest (1)" />
+        <item itemvalue="Application.FxLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +215,6 @@
       <workItem from="1776170825743" duration="7074000" />
       <workItem from="1776198515867" duration="4705000" />
       <workItem from="1776277936512" duration="12463000" />
-      <workItem from="1776300550172" duration="384000" />
     </task>
     <servers />
   </component>
