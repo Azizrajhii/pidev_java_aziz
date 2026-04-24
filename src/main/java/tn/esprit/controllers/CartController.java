@@ -5,6 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
+import javafx.fxml.Initializable;
+import javafx.geometry.Pos;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -161,6 +163,8 @@ public class CartController implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        totalLabel.setText("✅ Commande passée !");
+        subtotalLabel.setText("✅");
     }
 
     @FXML
